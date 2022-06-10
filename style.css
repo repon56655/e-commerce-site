@@ -24,6 +24,10 @@
 .cat-1 {
     background-color: #f2c010;
 }
+.scale-2:hover {
+    transform: scale(1.2);
+    transition: 1s ease-in-out;
+}
 
 .cat-2 {
     background-color: orchid;
@@ -46,10 +50,14 @@
 
 }
 .card-1 img, .card-2 img, .card-3 img, .bag-1 img, .bag-2 img, .bag-3 img, .watch-1 img, .watch-2 img, .watch-3 img {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .card-1:hover img, .card-2:hover img, .card-3:hover img, .bag-1:hover img, .bag-2:hover img, .bag-3:hover img, .watch-1:hover img, .watch-2:hover img, .watch-3:hover img  {
     opacity: 1;
+    transform: scale(1.1, 1.1);
+    transition: 1s ease-in-out;
+
+
 }
 
 
@@ -127,5 +135,29 @@
 .watch-1 img, .watch-2 img, .watch-3 img {
     max-width: 100%;
 }
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  #myBtn:hover {
+    background-color: black;
+    color: white;
+    transition: 1s ease-in-out;
+    
+
+ 
+  }
+
 
 
