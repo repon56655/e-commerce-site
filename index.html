@@ -10,10 +10,11 @@
     <title>Panda Commerce</title>
 </head>
 <body>
-    
+              <!--Navbar Start  -->
     <div class="container">
+      
 
-        <nav class="navbar navbar-expand-lg bg-light sticky-lg-top">
+      <nav class="navbar navbar-expand-lg bg-light mb-5">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                   <img id="img-size" src="img/logo-1.png" alt="logo">
@@ -41,7 +42,11 @@
                 </ul>
               </div>
             </div>
-          </nav>
+      </nav>
+      
+       <!--Navbar END -->
+
+<!--Slider Start  -->
           <div class="container orange-bg">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -102,16 +107,16 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-          </div>
+            </div> <!--Slider END  -->
+
+            <!--Categories Start  -->
           <div class="categories container">
 
             <div class="row margin-top">
-             
-             
               <div class="col-md-4">
                   <div class="cat-1 rounded-2 d-flex align-items-center justify-content-between p-4">
                     <h1>Watch</h1>
-                    <img src="img/categories/watch.png" alt="watch picture">
+                    <img class="scale-2" src="img/categories/watch.png" alt="watch picture">
                   </div>
               </div>
              
@@ -119,7 +124,7 @@
               <div class="col-md-4 ">
                   <div class="cat-2 rounded-2 d-flex align-items-center justify-content-between p-4">
                     <h1>Bag</h1>
-                    <img src="img/categories/bag.png" alt="watch picture">
+                    <img class="scale-2" src="img/categories/bag.png" alt="watch picture">
                   </div>
               </div>
               
@@ -127,7 +132,7 @@
               <div class="col-md-4 ">
                   <div class="cat-3 rounded-2 d-flex align-items-center justify-content-between p-4">
                     <h1>Shoes</h1>
-                    <img src="img/categories/shoes.png" alt="watch picture">
+                    <img class="scale-2" src="img/categories/shoes.png" alt="watch picture">
                 </div>
 
                 </div>
@@ -135,7 +140,9 @@
               </div>
             </div>
 
-          </div>
+          </div>  <!--Categoires END -->
+
+ <!--Shoes Start  -->
           <div class="category-item container" id="shoes">
 
             <div class="card-deck">
@@ -177,7 +184,10 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div>  <!--Shoes END  -->
+
+
+<!--Backpack Start  -->
           <div class="category-item container" id="backpack">
 
             <div class="card-deck">
@@ -219,8 +229,10 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="category-item container" id="watches">
+          </div>           <!--Backpack END  -->
+
+<!--Watches Start  -->
+          <div class="category-item container mb-5" id="watches">
 
             <div class="card-deck">
               <div class="row">
@@ -261,16 +273,56 @@
                 </div>
               </div>
             </div>
+          </div>           <!--Watches END  -->
+
+<!--Subscribe Start  -->
+          <div class="container orange-bg mt-4 d-flex align-items-center
+           justify-content-center p-5" id="subscribe">
+            <div class="subscribe-content">
+              <h1>LET'S STAY IN TOUCH</h1>
+              <p>Get updates on sales, specials and more</p>
+              <input class="form-control" type="text" placeholder="Your Email">
+              <button class="btn btn-color d-block mt-3" >SUBMIT</button>
+
+            </div>
+              
           </div>
           <div class="container">
-            <footer>
-
+            <footer class="d-flex justify-content-center">
+              <p>&copy; E-commerce. All rights served. Dhaka, Bangladesh-2022</p>
             </footer>
           </div>
 
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="bi bi-chevron-up icon"></i></button>
+
+    
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+
 
               
-    </div>
+  
 
 
 
