@@ -1,0 +1,30 @@
+.orange-bg {
+    background-color: #fbeae9;
+}
+.btn-color {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: white;
+}
+.categories h1 {
+    color: white;
+}
+.categories img {
+    width: 100px;
+}
+.margin-top {
+    margin-top: 60px;
+}
+.cat-1 {
+    background-color: #f2c010;
+}
+
+.cat-2 {
+    background-color: orchid;
+}
+
+.cat-3 {
+    background-color: blue;
+}
+.category-item {
+    margin-top: 80px;
+}
